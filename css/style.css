@@ -310,8 +310,11 @@ img{
   color: var(--main-color);
   transform: scale(1.1);
 }
-
 @media(max-width: 768px){
+  header{
+
+    padding: 0.2rem 1rem;
+  }
   .nav{
     display: none;
   }  
@@ -332,16 +335,16 @@ img{
 
 @media(max-width: 614px){
   .home{
-    margin-top: 6rem;
+    margin-top: 4rem;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
+    align-items: flex-start;
+    padding: 0 0 0 3rem;
   }
-/*   .home-img{
-    display: none;
-  } */
+  .home-img{
+    margin-left: 2rem;
+  }
   .home-conteudo{
-    margin-top: 6rem;
+    margin-top: 2rem;
   } 
   .sobre p {
     font-size: 1.2rem;
@@ -378,7 +381,6 @@ img{
   }
   
 }
-
 
 
 
