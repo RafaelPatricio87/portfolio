@@ -334,8 +334,8 @@ img{
   .home{
     margin-top: 6rem;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
   }
 /*   .home-img{
     display: none;
