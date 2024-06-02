@@ -333,11 +333,11 @@ img{
 @media(max-width: 614px){
   .home{
     margin-top: 6rem;
-    justify-content: flex-start;
+    flex-direction: column;
   }
-  .home-img{
+/*   .home-img{
     display: none;
-  }
+  } */
   .home-conteudo{
     margin-top: 6rem;
   } 
